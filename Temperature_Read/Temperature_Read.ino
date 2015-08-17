@@ -17,11 +17,11 @@ void loop()
   Serial.print("*C");
   Serial.println();
   */
-  delay(1000);
-
   Serial.print("TEMPRATURE = ");
   Serial.print(farh);
   Serial.print("*F");
   Serial.println();
-
+  
+  delay(1000);
+  
 }
